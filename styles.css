@@ -1,0 +1,144 @@
+/* container for nav*/
+.flexContainer {
+    display: flex;
+}
+
+/*item for nav */
+.flexItem {
+    flex:1;
+}
+
+/*item for nav */
+.flexStart{
+    justify-content:flex-end;
+}
+
+/* navigation styling */
+.nav{
+    list-style:none;
+}
+
+/* navigation link styling */
+.nav a {
+    text-decoration: none;
+    display: block;
+    padding: 0 1em;
+    color: white;
+}
+
+/* Main outer container */
+.container1 {
+    display: flex;
+    flex-direction: column;
+}
+
+/* container for character headshots & title */
+.container {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+/* container for character headshots */
+.container > * {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.24);
+    border: 1px solid #fff;
+    padding: 20px;
+    margin: 5px;
+    justify-content: space-between;
+    text-align: center;
+    min-width: 250px;
+    flex-grow: 1;
+    align-content: space-between;
+}
+
+/* container for character headshots - hover */
+.container > *:hover {
+    background-color: rgba(255, 255, 255, 0.44);
+}
+
+/*link styling */
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/*universal selector */
+* {
+    box-sizing: border-box;
+}
+
+/*font size set here */
+body {
+    background-color: #990000; /*sets page background to red */
+    min-height: 90vh;
+    overflow-x: hidden;
+    font-family: Lato;
+    font-size: 14px;
+    color: #fff;
+    padding: 40px;
+}
+
+/*page title */
+.header > h1,p {
+    margin: 25px 0 25px;
+    text-align: center;
+	font-size: 50px;
+	line-height: 70px;
+	font-weight: 400;
+	letter-spacing: 0px
+}
+
+/* container for character headshots */
+.head-container {
+    border: 1px dotted #fff;
+    padding: 20px 10px 20px 10px;
+    margin: 40px 0 40px;
+}
+
+
+/*choose a character text */
+.text-center {
+    text-align: center;
+}
+
+/* styling for navigation */
+.flexContainer {
+    display: flex;
+}
+
+/*character title*/
+.flexItem {
+    flex:1;
+}
+
+/*character title */
+.flexStart{
+    justify-content:flex-end;
+}
+
+/*sets background and border of nav*/ 
+.navBar{
+	border: 1px dotted #fff;
+} 
+
+ /* footer styling */
+footer {
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+  background-color: #990000; /*dark red*/
+  border: 1px dotted #fff;
+  color: yellow;
+}
+
+/* footer text */
+h3 {
+	text-align: center;
+}
+
+/* shift images down */
+img {
+	position:relative;
+	top: 10px;
+}
