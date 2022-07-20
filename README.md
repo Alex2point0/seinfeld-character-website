@@ -13,7 +13,7 @@
 
 Assignment 11: Group Project: Create a Webpage with Organized CSS Styles
 
-[Click here to view live webite](https://alex2point0.github.io/seinfeld-character-website/)
+[Click here to view live website](https://alex2point0.github.io/seinfeld-character-website/)
 
 ---
 
