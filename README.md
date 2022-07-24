@@ -36,7 +36,7 @@ The URL for the website is https://alex2point0.github.io/seinfeld-character-webs
 
 ## Wireframe[![](./docs/img/pin.svg)](#wireframe)
 
-View the [Wireframe](./examples/) here
+View the [Wireframe](Wireframe.pptx) here
 
 ---
 
