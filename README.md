@@ -7,6 +7,7 @@
 3. [Composition](#composition)
 4. [Wireframe](#wireframe)
 5. [Style Guide](#style-guide)
+6. [Project Notes](#project-notes)
 ---
 
 ## Introduction
@@ -46,3 +47,17 @@ View the [Style Guide](./examples/) here
 
 ---
 
+## Project Notes[![](./docs/img/pin.svg)](#project-notes)
+<u>Goals</u>
+* Our project uses "clean code." <i>Clean code</i> is code that is easy to understand and easy to change.
+We did this by:
+    * Using the same HTML template for each page.
+    * Including descriptive code comments
+    * Using the same stylesheet for each page.
+
+
+
+<u>Challenges</u>
+* Working with group members in other geographical locations and time zones always presents a challenge but our group worked through this by using Zoom meetings and texts.
+* Trying to ensure all group members had the same amount of Git commits was a challenge. This is because some commits had many complex changes (thus fewer commits) versus a large number of commits with just a few changes (such as typo correction).
+---

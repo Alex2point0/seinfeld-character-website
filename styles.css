@@ -26,7 +26,7 @@ body {
    }
 
  /* page background image */
-#GFG::before {
+.wrapper::before {
     content: "";
     position: absolute;
     top: 90px;
@@ -87,6 +87,10 @@ ul.nav.flexContainer.flexEnd{
     flex-flow: row wrap;
 }
 
+article {
+padding-bottom: 25px;
+}
+
 /* container for character headshots */
 .container > * {
     color: #fff;
@@ -105,6 +109,14 @@ ul.nav.flexContainer.flexEnd{
 /* container for character headshots - hover */
 .container > *:hover {
     background-color: rgba(255, 255, 255, 0.44);
+}
+
+div.card-body {
+padding-top: 15px;
+}
+
+.nav a {
+  text-align: center;
 }
 
 /*centers h1, h2 and h3 text */
@@ -137,6 +149,7 @@ img {
     color: white;
     text-decoration: none;
   }
+
   .menu
    {
     list-style-type: none;

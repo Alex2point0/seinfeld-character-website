@@ -10,11 +10,11 @@
     <link rel="stylesheet" href="styles.css"> <!-- link to stylesheet -->
 </head>
 <body>
-<div id="GFG"><!-- for background image -->
+    <div class="wrapper">   <!-- for background image -->
 	<!-- begin navigation -->
     <nav>
         <ul class="menu">
-          <li class="logo"><a href="#">Meet the characters of &nbsp;<img alt="Seinfeld" src="images/seinfeld_logo.png" width="50" height="30"></a></li>
+          <li class="logo"><a href="index.html">Meet the characters of <img alt="Seinfeld" src="images/seinfeld_logo.png" width="50" height="30"></a></li>
           <li class="item"><a href="index.html">Home</a></li>
           <li class="item"><a href="jerry.html">Jerry</a></li>
           <li class="item"><a href="elaine.html">Elaine</a></li>
@@ -30,32 +30,52 @@
     </div>
 	
 	<article>
-	<h3>Kramer has problems that aren't actual problems. Too much sand in his clothes, finding a discarded Merv Griffin set, attaching a screen door to his 4th floor apartment.<br> <br><br> <br></h3>
+	<h2>Kramer has problems that aren't actual problems. Too much sand in his clothes, finding a discarded Merv Griffin set, attaching a screen door to his 4th floor apartment.</h2>
 	</article>
 
     <div class="body">
         <div class="head-container">
-            <h2 class="text-center">Choose a different character</h2>
+            <h1 class="text-center">Choose a different character</h1>
         
 		<!-- character headshots -->
+        <section> 
             <div class="container">
-                <a href="jerry.html">Jerry <br><br><img alt="Jerry" src="images/jerry.png" width="100" height="100"></a>
-                <a href="elaine.html">Elaine<br><br><img alt="Elaine" src="images/elaine.png" width="100" height="100"></a>
-                <a href="george.html">George<br><br><img alt="George" src="images/george.png" width="100" height="100"></a>
-				<a href="kramer.html">Kramer<br><br><img alt="Kramer" src="images/kramer.png" width="100" height="100"></a>
-            </div>
-			<!--
-            <div class="container">
-                <a href="flexWrap.html">Flex Wrap</a>
-                <a href="alignContent.html">Align Content</a>
-            </div>
-			-->
+                <!--Jerry card-->
+                <div class="card" style="width: 18rem;">
+                    <a href="jerry.html"><img src="images/jerry.png" width="100" height="100" class="card-img-top" alt="jerry"></a>
+                    <div class="card-body">
+                      <a href="jerry.html" class="btn btn-primary">Jerry</a>
+                    </div>
+                </div>
+                <!--Elaine card-->
+                <div class="card" style="width: 18rem;">
+                    <a href="elaine.html"><img src="images/elaine.png" width="100" height="100" class="card-img-top" alt="elaine"></a>
+                    <div class="card-body">
+                      <a href="elaine.html" class="btn btn-primary">Elaine</a>
+                    </div>
+                </div>
+                <!--George card-->
+                <div class="card" style="width: 18rem;">
+                    <a href="george.html"><img src="images/george.png" width="100" height="100" class="card-img-top" alt="george"></a>
+                    <div class="card-body">
+                      <a href="george.html" class="btn btn-primary">Geogre</a>
+                    </div>
+                </div>
+                <!--Kramer card-->
+                <div class="card" style="width: 18rem;">
+                    <a href="kramer.html"><img src="images/kramer.png" width="100" height="100" class="card-img-top" alt="kramer"></a>
+                    <div class="card-body">
+                      <a href="kramer.html" class="btn btn-primary">Kramer</a>
+                    </div>
+                </div>                    
+        </div>
+        </section>
         </div>
     </div>
 </div> <!-- for backgorund image -->
 <!-- footer -->
 	<footer>
-        <small>&copy; &nbsp; University of Florida &nbsp;&nbsp;2022 </small>
+        <small>&copy; University of Florida, 2022 </small>
     </footer>
 </body>
 </html>
