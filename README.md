@@ -43,7 +43,7 @@ View the [Wireframe](Wireframe.pptx) here
 
 ## Style Guide[![](./docs/img/pin.svg)](#style-guide)
  
-View the [Style Guide](.Group5StyleGuide.pdf) here
+View the [Style Guide](Group5StyleGuide.pdf) here
 
 ---
 
