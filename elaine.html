@@ -1,81 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Seinfeld Character Website</title>
-	<link rel="icon" href="images/seinfeld_logo.png"> <!-- favicon -->
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin Sans"> <!-- link to external stylesheet -->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"> <!-- link to external stylesheet -->
-    <link rel="stylesheet" href="styles.css"> <!-- link to stylesheet -->
+	<link rel="stylesheet" href="styles.css"> <!-- Link to stylesheet-->
+    <link rel="icon" href="images/Seinfeld_favIcon.png"> <!-- favicon -->
+    <title> Seinfeld Characters |  About Elaine </title>
 </head>
 <body>
-    <div class="wrapper"><!-- for background image -->
-	<!-- begin navigation -->
-    <nav>
-        <ul class="menu">
-          <li class="logo"><a href="index.html">Meet the characters of <img alt="Seinfeld" src="images/seinfeld_logo.png" width="50" height="30"></a></li>
-          <li class="item"><a href="index.html">Home</a></li>
-          <li class="item"><a href="jerry.html">Jerry</a></li>
-          <li class="item"><a href="elaine.html">Elaine</a></li>
-          <li class="item"><a href="george.html">George</a></li>
-          <li class="item"><a href="kramer.html">Kramer</a></li>
-        </ul>
-      </nav>
-    <!-- end navigation -->
+    <header class="header">
+        <nav class="header__nav">
+            <a href="index.html" class="header__logo" title="Home Link"><img src="images/smSeinfeld_Logo.png" height="80"></a>
+            <a href="index.html" class="header__link" title="Home">Home</a>
+            <a href="about.html" class="header__link" title="About the Show">About</a>
+            <a href="jerry.html" class="header__link" title="About Jerry">Jerry</a>
+            <a href="Elaine.html" class="header__link" title="About Elaine">Elaine</a>
+            <a href="george.html" class="header__link" title="About George">George</a>
+            <a href="kramer.html" class="header__link" title="About Kramer">Kramer</a>
+        </nav>
+    </header>
 
-	<!-- header text -->
-    <div class="header">
-        <h1> <br>ELAINE <br><img alt="Seinfeld" src="images/elaine.png" width="100" height="100"></a></li> </h1>
-    </div>
-	
-	<article>
-	<h2>Elaine has trouble with her professional life. Her employers' problems often become her problems. She has a temper, but also a desire to be seen as polite.</h2>
-	</article>
+    <main>
+        <article class="article"> 
+            <h1 class="article__header--h1">About Elaine Benes</h1><img src="images/Elaine_Benes.jpg" alt="Image of Elaine Benes" width="350" height="447" class="article__image--floatRight">
+            
+            <p>
+                Elaine Benes is one of <a href="jerry.html" title="About Jerry" class="article__link">Jerry Seinfeld's</a> best friends. She is also warm and fuzzy with <a href="george.html" title="About George" class="article__link">George</a> and <a href="kramer.html" title="About Kramer" class="article__link">Cosmo Kramer </a> as well, mainly by association. His strongest friendship, by far, is that with Jerry. As Jerry’s ex-girlfriend, Elaine knows him well and adds a good dimension to the show that allows the viewer to better understand Jerry and the rest of the characters on Seinfeld.
+            </p>
+            <p>
+                Normally one to be assertive, confident and intelligent, Seinfeld Elaine still has those loveable Elaine“Seinfeldesque” qualities that make her a long-standing favorite character. For instance, Elaine doesn’t take baloney from anybody. She’s very firm in her beliefs and she’s proud of it. Elaine is edgy, superficial, and, well, she’s neurotic too. At the end of the day, she simply cannot help it. There’s a little neurotic behavior in all of us—that’s why Elaine is so easily relatable, especially by female viewership.
+                
+                A prominent quirk is Elaine’s serial dating. More or less, Elaine does not settle. That’s why she’s constantly allowing people in and out of her life—with confidence and humor, albeit a little bittersweet. Elaine (Seinfeld episode “The Stall”) demonstrates her knack for the vain. When her boyfriend Tony gets into a rock climbing accident and mangles his face, she admits to Jerry she simply cannot date him any longer.
+            </p>               
 
-    <div class="body">
-        <div class="head-container">
-            <h1 class="text-center">Choose a different character</h1>
-        
-		<!-- character headshots -->
-        <section> 
-            <div class="container">
-                <!--Jerry card-->
-                <div class="card" style="width: 18rem;">
-                    <a href="jerry.html"><img src="images/jerry.png" width="100" height="100" class="card-img-top" alt="jerry"></a>
-                    <div class="card-body">
-                      <a href="jerry.html" class="btn btn-primary">Jerry</a>
-                    </div>
-                </div>
-                <!--Elaine card-->
-                <div class="card" style="width: 18rem;">
-                    <a href="elaine.html"><img src="images/elaine.png" width="100" height="100" class="card-img-top" alt="elaine"></a>
-                    <div class="card-body">
-                      <a href="elaine.html" class="btn btn-primary">Elaine</a>
-                    </div>
-                </div>
-                <!--George card-->
-                <div class="card" style="width: 18rem;">
-                    <a href="george.html"><img src="images/george.png" width="100" height="100" class="card-img-top" alt="george"></a>
-                    <div class="card-body">
-                      <a href="george.html" class="btn btn-primary">Geogre</a>
-                    </div>
-                </div>
-                <!--Kramer card-->
-                <div class="card" style="width: 18rem;">
-                    <a href="kramer.html"><img src="images/kramer.png" width="100" height="100" class="card-img-top" alt="kramer"></a>
-                    <div class="card-body">
-                      <a href="kramer.html" class="btn btn-primary">Kramer</a>
-                    </div>
-                </div>                    
-        </div>
-        </section>
-        </div>
-    </div>
-</div> <!-- for backgorund image -->
-<!-- footer -->
-	<footer>
-        <small>&copy; University of Florida, 2022 </small>
+            <h2 class="article__header--h2">Famous Elaine Quotes</h2>
+            <ul class="article__list">
+                <li class="article__list__item">Get Out</li>
+                <li class="article__list__item">I'll go, if I don't have to talk</li>
+                <li class="article__list__item">Yada yada yada</li>
+            </ul>
+
+
+            
+        </article>   
+    </main>
+    <footer class="footer">
+        <p>&copy; 2022 |  MMC 5277 | Group 5 Project |  University of Florida</p>
     </footer>
 </body>
 </html>

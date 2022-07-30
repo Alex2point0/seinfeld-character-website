@@ -1,81 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Seinfeld Character Website</title>
-	<link rel="icon" href="images/seinfeld_logo.png"> <!-- favicon -->
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin Sans"> <!-- link to external stylesheet -->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"> <!-- link to external stylesheet -->
-    <link rel="stylesheet" href="styles.css"> <!-- link to stylesheet -->
+	<link rel="stylesheet" href="styles.css"> <!-- Link to stylesheet-->
+    <link rel="icon" href="images/Seinfeld_favIcon.png"> <!-- favicon -->
+    <title> Seinfeld Characters |  About George </title>
 </head>
 <body>
-    <div class="wrapper"><!-- for background image -->
-	<!-- begin navigation -->
-    <nav>
-        <ul class="menu">
-          <li class="logo"><a href="index.html">Meet the characters of <img alt="Seinfeld" src="images/seinfeld_logo.png" width="50" height="30"></a></li>
-          <li class="item"><a href="index.html">Home</a></li>
-          <li class="item"><a href="jerry.html">Jerry</a></li>
-          <li class="item"><a href="elaine.html">Elaine</a></li>
-          <li class="item"><a href="george.html">George</a></li>
-          <li class="item"><a href="kramer.html">Kramer</a></li>
-        </ul>
-      </nav>
-    <!-- end navigation -->
+    <header class="header">
+        <nav class="header__nav">
+            <a href="index.html" class="header__logo" title="Home Link"><img src="images/smSeinfeld_Logo.png" height="80"></a>
+            <a href="index.html" class="header__link" title="Home">Home</a>
+            <a href="about.html" class="header__link" title="About the Show">About</a>
+            <a href="jerry.html" class="header__link" title="About Jerry">Jerry</a>
+            <a href="Elaine.html" class="header__link" title="About Elaine">Elaine</a>
+            <a href="george.html" class="header__link" title="About George">George</a>
+            <a href="kramer.html" class="header__link" title="About Kramer">Kramer</a>
+        </nav>
+    </header>
 
-	<!-- header text -->
-    <div class="header">
-        <h1> <br>GEORGE <br><img alt="Seinfeld" src="images/george.png" width="100" height="100"></a></li> </h1>
-    </div>
-	
-	<article>
-	<h2>George often has trouble with self loathing. He fabricates alternate personas attached to dream professions. He double-dips chips, and triples-down on lies.</h2>
-	</article>
+    <main>
+        <article class="article"> 
+            <h1 class="article__header--h1">About George Costanza</h1><img src="images/George_Costanza.jpg" alt="Image of George Costanza" width="350" height="447" class="article__image--floatRight">
+            
+            <p>
+                George is <a href="jerry.html" title="About Jerry" class="article__link">Jerry Seinfeld's</a> neurotic friend. He sometimes lives with his parents, Estelle and Frank Costanza, a bitter couple who are as neurotic as their son. Chances are George's personality traits of being bitter, miserly, selfish, greedy and dishonest come from his childhood background. As a teenager, he was tormented by his gym teacher, Mr. Heyman, who intentionally mispronounced George's last name as "Can't Stand Ya." George and Jerry attended public school together, setting the dynamic for their later relationship. George claims that he and Jerry met in gym class when George, climbing rope, fell on Jerry.
+            </p>
+            <p>
+                George has numerous psychological problems, including: sociopathy (officially referred to as Antisocial Personality Disorder), narcissism, habitual lying, low self-esteem, sudden fits of anger, hypochondriasis, impulsive acts of ill-considered cheapness, selfishness, obsessiveness, living in fantasy. Like <a href="kramer.html" title="About Kramer" class="article__link"> Kramer </a>, he would often concoct elaborate plots to weasel out of relational, financial, or legal obligations, always with unexpected and negative consequences. George's lying, however, is often seen as a gift in the eyes of himself and his friends. It is noted in some episodes that he can even beat a lie-detector test. When Jerry tells <a href="elaine.html" title="About Elaine" class="article__link"> Elaine </a> about his plan of beating a lie detector instead of somehow avoiding it, she replies, "Who do you think you are, Costanza?"
+            </p>
+            <h2 class="article__header--h2">Famous George Quotes</h2>
+            <ul class="article__list">
+                <li class="article__list__item">I'm Disturbed, I'm Depressed, I'm Inadequate – I've Got It All!</li>
+                <li class="article__list__item">Squirrel? Well, We Have No Deal With Them!</li>
+                <li class="article__list__item">You're Giving ME The 'It's Not You, It's Me' Routine? I INVENTED 'It's Not You, It's Me'!</li>
+            </ul>
 
-    <div class="body">
-        <div class="head-container">
-            <h1 class="text-center">Choose a different character</h1>
-        
-		<!-- character headshots -->
-        <section> 
-            <div class="container">
-                <!--Jerry card-->
-                <div class="card" style="width: 18rem;">
-                    <a href="jerry.html"><img src="images/jerry.png" width="100" height="100" class="card-img-top" alt="jerry"></a>
-                    <div class="card-body">
-                      <a href="jerry.html" class="btn btn-primary">Jerry</a>
-                    </div>
-                </div>
-                <!--Elaine card-->
-                <div class="card" style="width: 18rem;">
-                    <a href="elaine.html"><img src="images/elaine.png" width="100" height="100" class="card-img-top" alt="elaine"></a>
-                    <div class="card-body">
-                      <a href="elaine.html" class="btn btn-primary">Elaine</a>
-                    </div>
-                </div>
-                <!--George card-->
-                <div class="card" style="width: 18rem;">
-                    <a href="george.html"><img src="images/george.png" width="100" height="100" class="card-img-top" alt="george"></a>
-                    <div class="card-body">
-                      <a href="george.html" class="btn btn-primary">Geogre</a>
-                    </div>
-                </div>
-                <!--Kramer card-->
-                <div class="card" style="width: 18rem;">
-                    <a href="kramer.html"><img src="images/kramer.png" width="100" height="100" class="card-img-top" alt="kramer"></a>
-                    <div class="card-body">
-                      <a href="kramer.html" class="btn btn-primary">Kramer</a>
-                    </div>
-                </div>                    
-        </div>
-        </section>
-        </div>
-    </div>
-</div> <!-- for backgorund image -->
-<!-- footer -->
-	<footer>
-        <small>&copy; University of Florida, 2022 </small>
+
+            
+        </article>   
+    </main>
+    <footer class="footer">
+        <p>&copy; 2022 |  MMC 5277 | Group 5 Project |  University of Florida</p>
     </footer>
 </body>
 </html>
