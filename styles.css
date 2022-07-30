@@ -323,10 +323,11 @@ body {
 
 
 
+
 /* ========================================================================
                       Tablet & Mobile Responsive Styles
 ==========================================================================*/
-@media screen and (max-width:550px) {
+@media screen and (max-width:768px) {
 
   body {
     font-size: 1rem;
@@ -375,10 +376,6 @@ body {
     font-size:2rem;
   }
   
-  .article {
-   padding:10px 30px;
-  }
-
   .article__header--homepageh1 {
     text-indent:0px;
   }
@@ -394,4 +391,95 @@ body {
     margin:0 auto;
   }
   
+  }
+  
+  
+  
+  /* ========================================================================
+                        Tablet  Responsive Styles
+  ==========================================================================*/
+  @media screen and (max-width:550px) {
+  
+    body {
+      font-size: 1rem;
+    }
+    
+    .header {
+      padding:10px 0;
+    }
+    
+    .header__nav {
+      display:block;
+      margin:10px auto;
+    }
+    
+    .header__logo {
+      margin:10px auto;
+      display:block;
+      text-align:center;
+    }
+    
+    .header__link:last-of-type {
+      margin:0px;
+    }
+    
+    /* Remove Animation for Links in the Header for mobile view */
+    .header__link:hover::after {
+      animation: none;
+    }
+    
+    .header__link {
+      font-size: 1.25rem;
+      color: var(--light-text-color);
+      margin:15px 0px;
+      padding:2px;
+      display:block;
+      text-align:center;
+    }
+    
+    .header__link:hover {
+      background-color:var(--secondary-color);
+      color:var(--light-text-color);
+      padding:2px;
+    }
+    
+    .heroSection__text{
+      font-size:2rem;
+    }
+    
+    .article {
+     padding:10px 30px;
+    }
+  
+    .article__header--homepageh1 {
+      text-indent:0px;
+    }
+    
+    .article__header--h1 {
+      font-size:1.75rem;
+      text-align: center;    
+    }
+    
+    .article__image--floatRight{
+      float:none;
+      display:block;
+      margin:0 auto;
+      width:75%;
+      height:75%;
+    }
+    
+    }
+  
+    /* ========================================================================
+                        Small Mobile Responsive Styles
+  ==========================================================================*/
+  @media screen and (max-width:400px) {
+    .article {
+      padding:10px 10px;
+     }
+  
+    .article__image--floatRight {
+      width:60%;
+      height:60%;
+     }
   }
