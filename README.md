@@ -60,4 +60,13 @@ We did this by:
 <u>Challenges</u>
 * Working with group members in other geographical locations and time zones always presents a challenge but our group worked through this by using Zoom meetings and texts.
 * Trying to ensure all group members had the same amount of Git commits was a challenge. This is because some commits had many complex changes (thus fewer commits) versus a large number of commits with just a few changes (such as typo correction).
+
+<u>Attribution</u>
+* Content for this project was taken from the following websites:
+    * Wikipedia: https://en.wikipedia.org/wiki/Seinfeld
+    * Collider: https://collider.com/seinfeld-cast-characters-who-plays/
+    * GameRant: https://gamerant.com/seinfeld-behind-the-scenes-facts-stories-trivia/#:~:text=Seinfeld%20still%20holds%20up%20as,of%20its%20nine%2Dseason%20run.
+    * WikiSein: https://seinfeld.fandom.com/wiki/Category:Characters 
+    * Scary Mommy: https://www.scarymommy.com/seinfeld-quotes
+
 ---
