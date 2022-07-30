@@ -1,0 +1,252 @@
+
+:root {
+    --primary-color:#335AA6;
+    --light-primary-color:#3264A6;
+    --secondary-color:#D92938;
+    --accent-color:#FBC50B;
+    --dark-accent-color:#010626;
+    --text-color:#333333;
+    --light-text-color:#ffffff;
+    --darkBG:#153066;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    font-size: 1.2rem;
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+/* Style header block & navigation */
+.header {
+    background-color: var(--darkBG);
+    padding:20px 0px;
+    border-bottom:var(--secondary-color) solid 4px;
+}
+
+.header__nav {
+    display:flex;
+    max-width:1200px;
+    margin:0 auto;
+    box-sizing:border-box;
+}
+
+.header__logo {
+   margin-right:auto;
+}
+
+.header__link {
+    font-size:1.25rem;
+    color: var(--light-text-color);
+    margin:35px 0px 0px 60px;
+    text-decoration:none;
+    /* add animation to header */
+    position:relative;
+    transition: color .3s linear;
+}
+
+/* Animation for Links in the Header */
+.header__link::after {
+    border-bottom: .15em solid  var(--secondary-color);
+    content: "";
+    position: absolute;
+    right: 100%;
+    bottom: 1em;
+    border-radius:5%;
+    left:0;
+    transition: right .3s cubic-bezier(0,.5,0,1);
+}
+
+.header__link:hover {
+    text-decoration:none;
+    color: var(--accent-color); 
+}
+
+.header__link:hover::after {
+    border-color:var(--secondary-color); 
+    animation: movingBorder 1.25s cubic-bezier(0,.5,0,1) infinite;
+}
+
+@keyframes movingBorder {
+    0%, 10% {
+      left:0;
+      right:100%;
+    }
+    40% , 60% {
+      left:0;
+      right:0;
+  
+    }
+    90%, 100%{
+      left:100%;
+      right:0;
+    }
+  }
+
+
+
+/* Hero Section */
+
+.heroSection{
+    height:400px;
+    width: 100hw;
+    background-image: url(images/seinfeld-livingroom.jpg);
+    background-size: cover;
+    background-position:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    background-color: var(--accent-color);
+    border-bottom:var(--secondary-color) solid 4px;
+  }
+
+.heroSection__text {
+    font-size: 2.5rem;
+    font-weight: 700;
+    background-color: rgba(0,0,0,0.75);
+    color:white;
+    text-shadow: #333 2px 2px 2px;
+    padding: 30px 20px;
+    margin: 0;
+    border-radius:15px;
+  }
+
+.heroSection__btn {
+    background-color: var(--accent-color);
+    border: none;
+    font-weight:bold;
+    font-size:1rem;
+    color:red;
+    padding: 18px 14px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+
+.heroSection__btn:hover {
+    animation:btnChange 2s reverse;
+}
+
+/* Animation for hero button */
+@keyframes btnChange {
+
+    0% {
+        background-color: var(--accent-color);
+        color:var(--secondary-color);
+    }
+
+    50% {
+        background-color: var(--secondary-color);
+        color:var(--light-text-color);
+    }
+    
+    100% {
+        background-color: var(--accent-color);
+        color:var(--secondary-color);
+    }
+    
+}
+
+/* Container for Character headshots & title */
+
+.article {
+    padding: 36px 96px;
+    max-width: 1200px;
+    margin: 0 auto 20px auto;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 10px var(--gray);
+    background-color: var(--white);
+  }
+
+.article__container {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.article__card {
+    color: #fff;
+    border: 1px solid var(--primary-color);
+    padding: 20px;
+    margin: 5px;
+    justify-content: space-between;
+    text-align: center;
+    min-width: 200px;
+    flex-grow: 1;
+    align-content: space-between;
+    border-radius:10px;
+    cursor: pointer;
+}
+
+.article__card:hover {
+    background-color: lightgray;
+    color:white;
+
+}
+
+.article__card_link {
+    text-decoration: none;
+    color:var(--darkBG);
+    font-weight:bold;
+    display:block;
+}
+
+
+.footer {
+    margin-top: auto;
+    background-color: var(--darkBG);
+    border-top:var(--secondary-color) solid 4px;
+    text-align: center;
+    padding: 10px 0;
+    color: var(--light-text-color);
+}
+
+/* ========================================================================
+                        Responsive
+==========================================================================*/
+@media screen and (max-width:500px) {
+
+body {
+    font-size: 1rem;
+}
+
+
+
+
+.header {
+    padding:10px 0;
+}
+
+.header__nav {
+    display:block;
+    margin:0px auto;
+}
+
+.header__logo {
+    margin:10px auto;
+    display:block;
+    text-align:center;
+}
+
+.header__link {
+    font-size:1.25rem;
+    color: var(--light-text-color);
+    margin:10px 20px;
+    display:block;
+    text-decoration:none;
+    /* add animation to header */
+    text-align:center;
+}
+
+
+.heroSection__text{
+    font-size:2rem;
+}
+
+
+}
