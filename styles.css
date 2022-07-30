@@ -11,7 +11,7 @@
 }
 
 body {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin: 0;
   min-height: 100vh;
   font-size: 1.2rem;
@@ -182,11 +182,13 @@ body {
 }
 
 .article__header--h1 {
+  font-family: 'Josefin Sans', sans-serif;
   font-size:2rem;
   color:var(--primary-color);       
 }
 
 .article__header--h2 {
+  font-family: 'Josefin Sans', sans-serif;
   font-size:1.5rem;
   font-style: italic;
   color:var(--secondary-color);
