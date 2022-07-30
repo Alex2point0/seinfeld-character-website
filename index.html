@@ -7,42 +7,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin Sans"> <!-- link to external stylesheet -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"> <!-- link to external stylesheet -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato"> <!-- link to external stylesheet -->
     <link rel="stylesheet" href="styles.css"> <!-- link to stylesheet -->
 </head>
 <body>
+    <div class="wrapper"><!-- for background image -->
 	<!-- begin navigation -->
-	<nav class="flexContainer navBar">
-         <ul class="nav flexItem flexStart">
-            <li><a href="#">Seinfeld Characters</a></li>
-         </ul>
-         <ul class="nav flexContainer flexEnd">
-             <li><a href="jerry.html">Jerry</a></li>
-             <li><a href="elaine.html">Elaine</a></li>
-             <li><a href="george.html">George</a></li>
-             <li><a href="kramer.html">Kramer</a></li>
-         </ul>
-    </nav>
-	<!-- end navigation -->
-
-	<!-- header text -->
-    <div class="header">
-        <h1>Meet the characters of &nbsp;<img alt="Seinfeld" src="images/seinfeld_logo.png" width="70" height="50"></a></li> </h1>
-    </div>
-    <div class="body">
-        <div class="head-container">
-            <h2 class="text-center">Choose a character</h2>
-		<!-- character headshots -->
-            <div class="container">
-                <a href="jerry.html">Jerry <br><br><img alt="Jerry" src="images/jerry.png" width="100" height="100"></a>
-                <a href="elaine.html">Elaine<br><br><img alt="Elaine" src="images/elaine.png" width="100" height="100"></a>
-                <a href="george.html">George<br><br><img alt="George" src="images/george.png" width="100" height="100"></a>
-				<a href="kramer.html">Kramer<br><br><img alt="Kramer" src="images/kramer.png" width="100" height="100"></a>
+    <nav>
+        <ul class="menu">
+          <li class="logo"><a href="index.html">Meet the characters of <img alt="Seinfeld" src="images/seinfeld_logo.png" width="50" height="30"></a></li>
+          <li class="item"><a href="index.html">Home</a></li>
+          <li class="item"><a href="jerry.html">Jerry</a></li>
+          <li class="item"><a href="elaine.html">Elaine</a></li>
+          <li class="item"><a href="george.html">George</a></li>
+          <li class="item"><a href="kramer.html">Kramer</a></li>
+        </ul>
+      </nav>
+    <!-- end navigation -->
+    <!-- start main -->
+    <main> 
+        <!-- start article -->
+        <article>   
+            <!-- header -->
+            <header>
+                <h1>Choose a character</h1>
+            </header>
+            <!-- start section with character headshots -->
+            <section> 
+                <div class="container">
+                    <!--Jerry card-->
+                    <div class="card" style="width: 18rem;">
+                        <a href="jerry.html"><img src="images/jerry.png" width="100" height="100" class="card-img-top" alt="jerry"></a>
+                        <div class="card-body">
+                          <a href="jerry.html" class="btn btn-primary">Jerry</a>
+                        </div>
+                    </div>
+                    <!--Elaine card-->
+                    <div class="card" style="width: 18rem;">
+                        <a href="elaine.html"><img src="images/elaine.png" width="100" height="100" class="card-img-top" alt="elaine"></a>
+                        <div class="card-body">
+                          <a href="elaine.html" class="btn btn-primary">Elaine</a>
+                        </div>
+                    </div>
+                    <!--George card-->
+                    <div class="card" style="width: 18rem;">
+                        <a href="george.html"><img src="images/george.png" width="100" height="100" class="card-img-top" alt="george"></a>
+                        <div class="card-body">
+                          <a href="george.html" class="btn btn-primary">Geogre</a>
+                        </div>
+                    </div>
+                    <!--Kramer card-->
+                    <div class="card" style="width: 18rem;">
+                        <a href="kramer.html"><img src="images/kramer.png" width="100" height="100" class="card-img-top" alt="kramer"></a>
+                        <div class="card-body">
+                          <a href="kramer.html" class="btn btn-primary">Kramer</a>
+                        </div>
+                    </div>                    
             </div>
-        </div>
-    </div>
+            </section>
+        </article>
+    </main>
+</div> <!-- for backgorund image -->
+<!-- footer -->
 	<footer>
-			<h3>University of Florida<br>&copy 2022</h3>
-	</footer>
+        <small>&copy; University of Florida, 2022 </small>
+    </footer>
 </body>
 </html>
