@@ -178,7 +178,6 @@ body {
   text-indent:20px;
   padding:10px;
   background-color: var(--accent-color);
-
 }
 
 .article__header--h1 {
@@ -303,6 +302,10 @@ body {
 
 .heroSection__text{
   font-size:2rem;
+}
+
+.article__header--homepageh1 {
+  text-indent:0px;
 }
 
 .article__header--h1 {
