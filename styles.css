@@ -1,10 +1,11 @@
 
 :root {
   --primary-color:#153066;
-  --light-primary-color:#3264A6;
-  --secondary-color:#D92938;
+  --secondary-color:#D92938;  
   --accent-color:#FBC50B;
   --dark-accent-color:#010626;
+  --light-accent-color:#3264A6;
+
   --text-color:#333333;
   --light-text-color:#ffffff;
 
@@ -195,7 +196,7 @@ body {
 }
 
 .article__link {
-  color:var(--light-primary-color);
+  color:var(--light-accent-color);
   text-decoration:none;
   font-weight:bold;
 }
