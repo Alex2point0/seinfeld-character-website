@@ -56,7 +56,6 @@ We did this by:
     * Using the same stylesheet for each page.
 
 
-
 <u>Challenges</u>
 * Working with group members in other geographical locations and time zones always presents a challenge but our group worked through this by using Zoom meetings and texts.
 * Trying to ensure all group members had the same amount of Git commits was a challenge. This is because some commits had many complex changes (thus fewer commits) versus a large number of commits with just a few changes (such as typo correction).
