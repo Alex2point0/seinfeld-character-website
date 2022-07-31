@@ -1,81 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Seinfeld Character Website</title>
-	<link rel="icon" href="images/seinfeld_logo.png"> <!-- favicon -->
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin Sans"> <!-- link to external stylesheet -->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"> <!-- link to external stylesheet -->
-    <link rel="stylesheet" href="styles.css"> <!-- link to stylesheet -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><!--font-->
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Roboto" rel="stylesheet"> <!--font-->
+    <link rel="stylesheet" href="styles.css"> <!-- Link to stylesheet-->
+    <link rel="icon" href="images/Seinfeld_favIcon.png"> <!-- favicon -->
+    <title> Seinfeld Characters |  About Kramer </title>
 </head>
 <body>
-    <div class="wrapper">   <!-- for background image -->
-	<!-- begin navigation -->
-    <nav class="nav">
-        <ul class="nav_menu">
-          <li class="logo"><a href="index.html">Meet the characters of <img alt="Seinfeld" src="images/seinfeld_logo.png" width="50" height="30"></a></li>
-          <li class="nav_menu_item"><a href="index.html">Home</a></li>
-          <li class="nav_menu_item"><a href="jerry.html">Jerry</a></li>
-          <li class="nav_menu_item"><a href="elaine.html">Elaine</a></li>
-          <li class="nav_menu_item"><a href="george.html">George</a></li>
-          <li class="nav_menu_item"><a href="kramer.html">Kramer</a></li>
-        </ul>
-      </nav>
-    <!-- end navigation -->
+    <header class="header">
+        <nav class="header__nav">
+            <a href="index.html" class="header__logo" title="Home Link"><img src="images/smSeinfeld_Logo.png" height="80"></a>
+            <a href="index.html" class="header__link" title="Home">Home</a>
+            <a href="about.html" class="header__link" title="About the Show">About</a>
+            <a href="jerry.html" class="header__link" title="About Jerry">Jerry</a>
+            <a href="elaine.html" class="header__link" title="About Elaine">Elaine</a>
+            <a href="george.html" class="header__link" title="About George">George</a>
+            <a href="kramer.html" class="header__link" title="About Kramer">Kramer</a>
+        </nav>
+    </header>
+    <main>
+        <article class="article"> 
+            <h1 class="article__header--h1">About Cosmo Kramer</h1>
+            <img src="images/Cosmo_Kramer.jpg" alt="Image of Cosmo_Kramer" width="350" height="447" class="article__image--floatRight">
+            <p>
+                Kramer has many conflicting personality traits. Described by an art patron as "a loathsome, offensive brute," he is often shallow, callous, and indifferent. On the other hand, he is often caring and friendly, going out of his way to get his friends to help others and to do the right thing even when they don't want to. Kramer is known for his extreme honesty and lack of tact; in "The Nose Job", he tells <a href="george.html" title="About George" class="article__link">George's </a> girlfriend that she "needs a nose job". Instead of being horrified, many of these people end up thanking Kramer for his candor. Kramer never gets into trouble for it, but often his friends do. He also gets his friends into trouble by talking them into things such as parking illegally in a handicapped space ("The Handicap Spot") or urinating in a parking garage ("The Parking Garage").
+            </p>
+            <p>
+                Kramer is perhaps the most social of the four main characters, and seems to have more friends and associates than any of the others, some of whom are just as eccentric if not more so than he is. This includes Bob Sacamano, an oft-referred to, but never-seen character, as well as Newman, played by Wayne Knight. Although they seem to get into many fights, Newman often participates in many of Kramer's inventions and money-making ideas. Kramer is popular with Jerry's parents: he calls them once a week, and even briefly lives in the same retirement community in Florida as they do. He participates in schemes with <a href="george.html" title="Learn More About George" class="article__link">George Costanza's</a> father, Frank Costanza, such as the invention of a male brassiere.
+            </p>
 
-	<!-- header text -->
-    <div class="header">
-        <h1> <br>KRAMER<br><img alt="Seinfeld" src="images/kramer.png" width="100" height="100"></a></li> </h1>
-    </div>
-	
-	<article>
-	<h2>Kramer has problems that aren't actual problems. Too much sand in his clothes, finding a discarded Merv Griffin set, attaching a screen door to his 4th floor apartment.</h2>
-	</article>
-
-    <div class="body">
-        <div class="head-container">
-            <h1 class="text-center">Choose a different character</h1>
-        
-		<!-- character headshots -->
-        <section> 
-            <div class="container">
-                <!--Jerry card-->
-                <div class="card" style="width: 18rem;">
-                    <a href="jerry.html"><img src="images/jerry.png" width="100" height="100" class="card-img-top" alt="jerry"></a>
-                    <div class="card-body">
-                      <a href="jerry.html" class="btn btn-primary">Jerry</a>
-                    </div>
-                </div>
-                <!--Elaine card-->
-                <div class="card" style="width: 18rem;">
-                    <a href="elaine.html"><img src="images/elaine.png" width="100" height="100" class="card-img-top" alt="elaine"></a>
-                    <div class="card-body">
-                      <a href="elaine.html" class="btn btn-primary">Elaine</a>
-                    </div>
-                </div>
-                <!--George card-->
-                <div class="card" style="width: 18rem;">
-                    <a href="george.html"><img src="images/george.png" width="100" height="100" class="card-img-top" alt="george"></a>
-                    <div class="card-body">
-                      <a href="george.html" class="btn btn-primary">Geogre</a>
-                    </div>
-                </div>
-                <!--Kramer card-->
-                <div class="card" style="width: 18rem;">
-                    <a href="kramer.html"><img src="images/kramer.png" width="100" height="100" class="card-img-top" alt="kramer"></a>
-                    <div class="card-body">
-                      <a href="kramer.html" class="btn btn-primary">Kramer</a>
-                    </div>
-                </div>                    
-        </div>
-        </section>
-        </div>
-    </div>
-</div> <!-- for backgorund image -->
-<!-- footer -->
-	<footer class="footer">
-        <small>&copy; University of Florida, 2022 </small>
+            <h2 class="article__header--h2">Famous Kramer Quotes</h2>
+            <ul class="article__list">
+                <li class="article__list__item">Who's gonna turn down a Junior Mint? It's chocolate, it's peppermint, it's delicious.</li>
+                <li class="article__list__item">"I’m out there, Jerry. And I’m loving every minute of it!</li>
+                <li class="article__list__item">You know what would make a great coffee table book? A coffee table book about coffee tables! Get it?</li>
+            </ul>           
+        </article>   
+    </main>
+    <footer class="footer"> 
+        <p>&copy; 2022 |  MMC 5277 | Group 5 Project |  University of Florida</p>
     </footer>
 </body>
 </html>

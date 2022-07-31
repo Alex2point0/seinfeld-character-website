@@ -1,75 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Seinfeld Character Website</title>
-	<link rel="icon" href="images/seinfeld_logo.png"> <!-- favicon -->
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin Sans"> <!-- link to external stylesheet -->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"> <!-- link to external stylesheet -->
-    <link rel="stylesheet" href="styles.css"> <!-- link to stylesheet -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><!--font-->
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Roboto" rel="stylesheet"> <!--font-->
+    <link rel="stylesheet" href="styles.css"> <!-- Link to stylesheet-->
+    <link rel="icon" href="images/Seinfeld_favIcon.png"> <!-- favicon -->
+    <title> Seinfeld Characters |  Home </title>
 </head>
 <body>
-    <div class="wrapper"><!-- for background image -->
-	<!-- begin navigation -->
-    <nav class="nav">
-        <ul class="nav_menu">
-          <li class="logo"><a href="index.html">Meet the characters of <img alt="Seinfeld" src="images/seinfeld_logo.png" width="50" height="30"></a></li>
-          <li class="nav_menu_item"><a href="index.html">Home</a></li>
-          <li class="nav_menu_item"><a href="jerry.html">Jerry</a></li>
-          <li class="nav_menu_item"><a href="elaine.html">Elaine</a></li>
-          <li class="nav_menu_item"><a href="george.html">George</a></li>
-          <li class="nav_menu_item"><a href="kramer.html">Kramer</a></li>
-        </ul>
-      </nav>
-    <!-- end navigation -->
-    <!-- start main -->
-    <main> 
-        <!-- start article -->
-        <article>   
-            <!-- header -->
-            <header>
-                <h1>Choose a character</h1>
-            </header>
-            <!-- start section with character headshots -->
-            <section> 
-                <div class="container">
-                    <!--Jerry card-->
-                    <div class="card" style="width: 18rem;">
-                        <a href="jerry.html"><img src="images/jerry.png" width="100" height="100" class="card-img-top" alt="jerry"></a>
-                        <div class="card-body">
-                          <a href="jerry.html" class="btn btn-primary">Jerry</a>
-                        </div>
+    <header class="header">
+        <nav class="header__nav">
+            <a href="index.html" class="header__logo" title="Home Link"><img src="images/smSeinfeld_Logo.png" height="80"></a>
+            <a href="index.html" class="header__link" title="Home">Home</a>
+            <a href="about.html" class="header__link" title="About the Show">About</a>
+            <a href="jerry.html" class="header__link" title="About Jerry">Jerry</a>
+            <a href="elaine.html" class="header__link" title="About Elaine">Elaine</a>
+            <a href="george.html" class="header__link" title="About George">George</a>
+            <a href="kramer.html" class="header__link" title="About Kramer">Kramer</a>
+        </nav>
+    </header>
+    <main>
+        <section class="heroSection">
+            <div class="heroSection__text"> 
+                <p>Meet the Characters from Seinfeld: A Show About Nothing</p>
+                <button class="heroSection__btn"><a href="about.html" class="heroSection__btnLink">About the Show</a></button>
+            </div>    
+        </section>
+        <article class="article"> 
+            <h1 class="article__header--homepageh1">Everything You Wanted to Know About:</h1>
+            <div class="article__container">
+                <!--Jerry card-->
+                <div class="article__card" title="Jerry">
+                    <a href="jerry.html"><img src="images/jerry.png" width="100" height="100"  alt="Jerry"></a>
+                    <div class="card-body">
+                      <a href="jerry.html" title="Jerry" class="article__card_link">Jerry</a>
                     </div>
-                    <!--Elaine card-->
-                    <div class="card" style="width: 18rem;">
-                        <a href="elaine.html"><img src="images/elaine.png" width="100" height="100" class="card-img-top" alt="elaine"></a>
-                        <div class="card-body">
-                          <a href="elaine.html" class="btn btn-primary">Elaine</a>
-                        </div>
+                </div>
+                <!--Elaine card-->
+                <div class="article__card" title="Elaine">
+                    <a href="elaine.html"><img src="images/elaine.png" width="100" height="100" alt="Elaine"></a>
+                    <a href="elaine.html" class="article__card_link" title="Elaine">Elaine</a>
                     </div>
-                    <!--George card-->
-                    <div class="card" style="width: 18rem;">
-                        <a href="george.html"><img src="images/george.png" width="100" height="100" class="card-img-top" alt="george"></a>
-                        <div class="card-body">
-                          <a href="george.html" class="btn btn-primary">Geogre</a>
-                        </div>
+                <!--George card-->
+                <div class="article__card" title="George">
+                    <a href="george.html"><img src="images/george.png" width="100" height="100" alt="George"></a>
+                    <a href="george.html" class="article__card_link" title="George">George</a>
+                </div>
+                <!--Kramer card-->
+                <div class="article__card" title="Kramer">
+                    <a href="kramer.html" title="Kramer" class="article__card_link"><img src="images/kramer.png" width="100" height="100" class="card-img-top" alt="kramer"></a>
+                    <div class="card-body">
+                      <a href="kramer.html" class="article__card_link" title="Kramer">Kramer</a>
                     </div>
-                    <!--Kramer card-->
-                    <div class="card" style="width: 18rem;">
-                        <a href="kramer.html"><img src="images/kramer.png" width="100" height="100" class="card-img-top" alt="kramer"></a>
-                        <div class="card-body">
-                          <a href="kramer.html" class="btn btn-primary">Kramer</a>
-                        </div>
-                    </div>                    
-            </div>
-            </section>
-        </article>
+                </div>                    
+        </div>
+        </article>   
     </main>
-</div> <!-- for backgorund image -->
-<!-- footer -->
-	<footer class="footer">
-        <small>&copy; University of Florida, 2022 </small>
+    <footer class="footer">
+        <p>&copy; 2022 |  MMC 5277 | Group 5 Project |  University of Florida</p>
     </footer>
 </body>
 </html>
