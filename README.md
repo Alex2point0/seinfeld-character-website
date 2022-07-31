@@ -29,15 +29,15 @@ Assignment 11: Group Project: Create a Webpage with Organized CSS Styles
 ## Composition
 
 This project consists of:
-1. [Wireframe](./wireframe) 
-2. [Style Guide](./style-guide)
+1. [Wireframe](Wireframe_Final.pptx) 
+2. [Style Guide](Group5StyleGuide.pdf)
 3. [Website](./website) -
 The URL for the website is https://alex2point0.github.io/seinfeld-character-website/
 ---
 
 ## Wireframe[![](./docs/img/pin.svg)](#wireframe)
 
-View the [Wireframe](Wireframe.pptx) here
+View the [Wireframe](Wireframe_Final.pptx) here
 
 ---
 
