@@ -43,6 +43,7 @@ View the [Wireframe](Wireframe_Final.pptx) here
 
 ## Style Guide[![](./docs/img/pin.svg)](#style-guide)
  
+
 View the [Style Guide](Group5StyleGuide.pdf) here
 
 ---
@@ -60,6 +61,7 @@ We did this by:
 * Working with group members in other geographical locations and time zones always presents a challenge but our group worked through this by using Zoom meetings and texts.
 * Trying to ensure all group members had the same amount of Git commits was a challenge. This is because some commits had many complex changes (thus fewer commits) versus a large number of commits with just a few changes (such as typo correction).
 
+
 <u>Attribution</u>
 * Content for this project was taken from the following websites:
     * Wikipedia: https://en.wikipedia.org/wiki/Seinfeld
@@ -68,4 +70,6 @@ We did this by:
     * WikiSein: https://seinfeld.fandom.com/wiki/Category:Characters 
     * Scary Mommy: https://www.scarymommy.com/seinfeld-quotes
 
+---
+=======
 ---
